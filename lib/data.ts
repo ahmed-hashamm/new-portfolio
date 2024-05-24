@@ -2,10 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import devCom from "@/public/dev-com.png"
+import lifeDrops from "@/public/life-drops.png"
+import backdoor from "@/public/backdoor.png"
 export const links = [
   {
     name: "Home",
@@ -23,14 +22,14 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
+  // {
+  //   name: "Contact",
+  //   hash: "#contact",
+  // },
 ] as const;
 
 
@@ -64,25 +63,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Life Drops",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this blood donation website project for my university's blood donation campaign.",
+    tags: ["React","Next js", "MongoDB", "Tailwind", "Javascript","Kinde Authentication"],
+    imageUrl: lifeDrops,
   },
   {
-    title: "rmtDev",
+    title: "Dev Com",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A full stack project where developers can post tech blogs and project ideas and alsp read latest news of the tech world.",
+    tags: ["React", "Firebase", "Tailwind", "Redux"],
+    imageUrl: devCom,
   },
   {
-    title: "Word Analytics",
+    title: "Backdoor",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I worked as a front end developer on this project and converted the figma design into pixel perfect next js code.",
+    tags: ["React", "Next.js", "Locomotive", "Tailwind", "Framer"],
+    imageUrl: backdoor,
   },
 ] as const;
 
@@ -96,14 +95,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Redux",
+  "Express",
+  "C++",
 ] as const;
