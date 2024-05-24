@@ -16,7 +16,7 @@ export default function Contact() {
       <div className="flex flex-col justify-center items-center">
         <p className="text-center">
           Contact me directly at{" "}
-          <a href='https://mail.google.com/mail/?view=cm&fs=1&to=ahmedhasham90012@gmail.com'  target="_blank" className="underline  font-medium"> ahmedhasham90012@gmail.com </a>
+          <a href='https://mail.google.com/mail/?view=cm&fs=1&to=ahmedhasham90012@gmail.com'  target="_blank" className="underline underline-offset-4  font-medium"> ahmedhasham90012@gmail.com </a>
         </p>
         <SectionDivider />
         <motion.div
