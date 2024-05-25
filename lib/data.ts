@@ -69,7 +69,7 @@ export const projectsData = [
   {
     title: "Dev Com",
     description:
-      "A full stack project where developers can post tech blogs and project ideas and alsp read latest news of the tech world.",
+      "A full stack project where developers can post tech blogs and project ideas and also read latest news of the tech world.",
     tags: ["React", "Firebase", "Tailwind", "Redux"],
     imageUrl: devCom,
   },
