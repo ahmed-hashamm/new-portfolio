@@ -1,10 +1,6 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import devCom from "@/public/dev-com.png"
 import lifeDrops from "@/public/life-drops.png"
-import backdoor from "@/public/backdoor.png"
+import colg from "@/public/colg.png"
 export const links = [
   {
     name: "Home",
@@ -74,11 +70,11 @@ export const projectsData = [
     imageUrl: devCom,
   },
   {
-    title: "Backdoor",
+    title: "Medical College Website",
     description:
-      "I worked as a front end developer on this project and converted the figma design into pixel perfect next js code.",
-    tags: ["React", "Next.js", "Locomotive", "Tailwind", "Framer"],
-    imageUrl: backdoor,
+      "Developed the official website for Sukaina College of Nursing using WordPress and Elementor, creating a responsive and user-friendly platform. Implemented custom themes, an admission system, and optimized performance for fast loading speeds.",
+    tags: ["WordPress", "Elementor", "PHP", "MySQL"],
+    imageUrl:colg,
   },
 ] as const;
 
@@ -95,7 +91,8 @@ export const skillsData = [
   "MongoDB",
   "Mongoose",
   "Framer Motion",
-  "Redux",
   "Express",
+  "WordPress",
+  "PHP",
   "C++",
 ] as const;
