@@ -55,6 +55,13 @@ export const links = [
 // ] as const;
 
 export const projectsData = [
+   {
+    title: "Medical College Website",
+    description:
+      "Developed the official website for Sukaina College of Nursing, creating a responsive and user-friendly platform.",
+    tags: ["WordPress", "Elementor", "PHP", "MySQL"],
+    imageUrl: colg,
+  },
   {
     title: "Life Drops",
     description:
@@ -69,13 +76,7 @@ export const projectsData = [
     tags: ["React", "Firebase", "Tailwind", "Redux"],
     imageUrl: devCom,
   },
-  {
-    title: "Medical College Website",
-    description:
-      "Developed the official website for Sukaina College of Nursing using WordPress and Elementor, creating a responsive and user-friendly platform.",
-    tags: ["WordPress", "Elementor", "PHP", "MySQL"],
-    imageUrl: colg,
-  },
+ 
 ] as const;
 
 export const skillsData = [
