@@ -72,9 +72,9 @@ export const projectsData = [
   {
     title: "Medical College Website",
     description:
-      "Developed the official website for Sukaina College of Nursing using WordPress and Elementor, creating a responsive and user-friendly platform. Implemented custom themes, an admission system, and optimized performance for fast loading speeds.",
+      "Developed the official website for Sukaina College of Nursing using WordPress and Elementor, creating a responsive and user-friendly platform.",
     tags: ["WordPress", "Elementor", "PHP", "MySQL"],
-    imageUrl:colg,
+    imageUrl: colg,
   },
 ] as const;
 
