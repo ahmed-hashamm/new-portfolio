@@ -1,6 +1,6 @@
 import classPilot from "@/public/classpilot.png"
 import socShield from "@/public/socshield.png"
-import vibeDiligence from "@/public/vibedilligence.png"
+import vibeDiligence from "@/public/vibediligence.png"
 export const links = [
   {
     name: "Home",
