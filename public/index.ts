@@ -1,4 +1,4 @@
-import logo from "./logo.jpg"
+import pfp from "./pfp_enhanced.png"
 export{
-    logo,
+    pfp,
 }

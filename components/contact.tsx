@@ -5,7 +5,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { BsLinkedin } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
-import { TbBrandFiverr } from "react-icons/tb";
+
 import SectionDivider from "./section-divider";
 import { easeIn, motion } from "framer-motion";
 export default function Contact() {
@@ -51,14 +51,8 @@ export default function Contact() {
           >
             <FaXTwitter />
           </a>
-          <a
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:ring-[1px] dark:ring-gray-600 "
-            href="https://www.fiverr.com/s/Y32YLK"
-            target="_blank"
-          >
-            <TbBrandFiverr />
-          </a>
         </motion.div>
+
       </div>
     </section>
   );

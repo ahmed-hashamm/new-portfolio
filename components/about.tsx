@@ -19,29 +19,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        As a current {" "}
-        <span className="font-medium">Computer Science</span> student ,I thrive on continuous learning and hands-on experience.I am a self taught programmer but I took the guidance of well established mentors throughout my journey of becomming a{" "}
-        <span className="font-medium">full-stack web developer</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Framer Motion. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am a <span className="font-medium">Computer Science student</span> and a{" "}
+        <span className="font-medium">Self-Taught Full-Stack Developer</span>. My journey in technology is driven by a deep curiosity for solving complex problems and a commitment to continuous growth. I have honed my skills through building real-world applications and collaborating with industry mentors.
+      </p>
+
+      <p className="mb-3">
+        My technical expertise includes <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>, with a strong focus on <span className="font-medium">TypeScript</span> and <span className="font-medium">AI integrations</span>. I take pride in transforming intricate requirements into clean, efficient, and user-centric digital solutions.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        involved in different {" "}
-        <span className="font-medium">tech related projects </span>at my institute.
+        I am currently contributing to various technical projects and am actively seeking a{" "}
+        <span className="font-medium">Software Developer role</span> where I can leverage my skills to build impactful products and grow within a professional engineering team.
       </p>
+
     </motion.section>
   );
 }

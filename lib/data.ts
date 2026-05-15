@@ -1,6 +1,6 @@
-import devCom from "@/public/dev-com.png"
-import lifeDrops from "@/public/life-drops.png"
-import colg from "@/public/colg.png"
+import classPilot from "@/public/classpilot.png"
+import socShield from "@/public/socshield.png"
+import vibeDiligence from "@/public/vibedilligence.png"
 export const links = [
   {
     name: "Home",
@@ -55,28 +55,27 @@ export const links = [
 // ] as const;
 
 export const projectsData = [
-   {
-    title: "Medical College Website",
+  {
+    title: "Class Pilot",
     description:
-      "Developed the official website for Sukaina College of Nursing, creating a responsive and user-friendly platform.",
-    tags: ["WordPress", "Elementor", "PHP", "MySQL"],
-    imageUrl: colg,
+      "An AI-driven educational platform designed to streamline classroom management and enhance student engagement through intelligent automation and real-time collaboration.",
+    tags: ["Next.js", "OpenAI", "Supabase", "Tailwind", "TypeScript"],
+    imageUrl: classPilot,
   },
   {
-    title: "Life Drops",
+    title: "SOC Shield",
     description:
-      "I worked as a full-stack developer on this blood donation website project for my university's blood donation campaign.",
-    tags: ["React","Next js", "MongoDB", "Tailwind", "Javascript","Kinde Authentication"],
-    imageUrl: lifeDrops,
+      "A comprehensive security operations center dashboard for real-time threat monitoring, incident response, and vulnerability management, featuring advanced data visualization.",
+    tags: ["Next.js", "Supabase", "TypeScript", "Framer Motion", "shadcn/ui"],
+    imageUrl: socShield,
   },
   {
-    title: "Dev Com",
+    title: "Vibe Dilligence",
     description:
-      "A full stack project where developers can post tech blogs and project ideas and also read latest news of the tech world.",
-    tags: ["React", "Firebase", "Tailwind", "Redux"],
-    imageUrl: devCom,
+      "An advanced GitHub repository audit tool tailored for vibe-coded startups and technical due diligence, providing deep insights into code quality, contributor patterns, and architectural health.",
+    tags: ["Next.js", "TypeScript", "AI Integration", "Framer Motion", "GitHub API"],
+    imageUrl: vibeDiligence,
   },
- 
 ] as const;
 
 export const skillsData = [
@@ -93,7 +92,7 @@ export const skillsData = [
   "Mongoose",
   "Framer Motion",
   "Express",
-  "WordPress",
-  "PHP",
-  "C++",
+  "OpenAI API",
+  "AI Integration",
+  "Redux",
 ] as const;

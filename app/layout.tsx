@@ -12,7 +12,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Hasham Ahmed | Personal Portfolio",
   description:
-    "Hasham is a full-stack developer with 2 years of experience, expertise in react js and next js",
+    "Hasham Ahmed is a Full-Stack Developer and Computer Science student specializing in React, Next.js, and AI integrations.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
